@@ -1,0 +1,19 @@
+body{
+font-family: Arial;
+background:#eef4ff;
+text-align:center;
+margin-top:100px;
+}
+
+.container{
+background:white;
+padding:40px;
+border-radius:10px;
+width:500px;
+margin:auto;
+box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+h2{
+color:#2563eb;
+}
