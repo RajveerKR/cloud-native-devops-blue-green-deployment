@@ -32,14 +32,22 @@ The application uses a simple containerised architecture.
 
 
 
-Client Browser
+User Browser
+      │
+      ▼
++----------------------+
+|  Docker Container    |
+|  Blue Environment    |
+|  Version 1 (app-v1)  |
++----------------------+
 
-↓
+      │
 
-Blue Environment (Docker Container – Version 1)
-
-Green Environment (Docker Container – Version 2)
-
++----------------------+
+|  Docker Container    |
+|  Green Environment   |
+|  Version 2 (app-v2)  |
++----------------------+
 
 
 Both environments run independently and can be switched during deployment.
